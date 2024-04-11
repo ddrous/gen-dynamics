@@ -7,7 +7,7 @@ We aim to provide a consistent interface to access each dataset. The datasets ar
 1) `train`: For In-Domain meta-learning
 2) `test`: For In-Domain meta-testing
 2) `ood_train`: For Out-of-Distribution adaptation to new environments
-3) `ood_test`: For Out-of-Distribution testing of the adatations to new environments
+3) `ood_test`: For Out-of-Distribution testing of the adaptation to new environments
 
 Each split is a NumPy archive (.npz) containing the trajectory of the system (`X`) and the time points (`t`) at which they were evaluated. While `t` is a 1-dimensional array, `X` is a 4-dimensional tensor of shape `(nb_envs, nb_trajs_per_env, nb_steps_per_traj, state_size)` described as follows:
 1) `nb_envs`: Number of distinct environments
