@@ -30,6 +30,7 @@ The following methods use at least in part the datasets provided in this reposit
 - Glycolytic Oscillator (see CoDA, LEADS)
 - Gray-Scott: Since this is a PDE on a 2D grid, its spatial data is flattened to a 1D state vector (see CoDA, LEADS, NCF)
 - Selkov-Model (see NCF)
+- Simple Pendulum (see NCF) WARNING: incomplete !
 - Please feel free to add more datasets by opening a pull request.
 
 
